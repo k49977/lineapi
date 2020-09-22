@@ -51,4 +51,5 @@ new Promise(function (resolve, reject) {
 // ターミナルで 「　node /Users/takekawaryohei/Documents/private/lineapi/line_api.js　」で叩ける
 
 
-//TODO 非同期処理で順番を待つところから。エラー対応から
+//TODO 毎日何時に送る
+//crontab -e
