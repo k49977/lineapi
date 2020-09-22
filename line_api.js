@@ -1,6 +1,6 @@
 new Promise(function (resolve, reject) {
 
-    // BTCの今日の値段を取得する
+    // BTCの今日の値段を取得する(btc api)
     const request1 = require('request');
 
     const options1 = {
@@ -20,7 +20,7 @@ new Promise(function (resolve, reject) {
 
 }).then(function (message) {
 
-    //LINEにBTCの今日の値段を送る
+    //LINEにBTCの今日の値段を送る(line api)
     const request = require('request');
 
     const options = {
